@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "geminimod",
+  "version": "1.0.0",
+  "name": "Gemini Boss Mod",
+  "description": "Мод добавляет босса Gemini, особый торт и механику обсидиановой тюрьмы.",
+  "authors": [
+    "Semyon"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/geminimod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gemini.mod.GeminiMod"
+    ]
+  },
+  "mixins": [
+    "geminimod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
